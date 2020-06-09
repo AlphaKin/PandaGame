@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pass",
+    "texture": "07be87db-942a-41fe-bdda-338a143a198e",
+    "atlas": "",
+    "rect": [
+      14,
+      6,
+      187,
+      271
+    ],
+    "offset": [
+      4,
+      0
+    ],
+    "originalSize": [
+      207,
+      283
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

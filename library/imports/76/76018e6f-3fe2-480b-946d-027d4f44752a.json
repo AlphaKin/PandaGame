@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pigment_big",
+    "texture": "0618fcec-739a-4c89-a0de-c06c6a70bb64",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      99
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

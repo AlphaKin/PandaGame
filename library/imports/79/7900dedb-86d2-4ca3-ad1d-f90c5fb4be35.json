@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "poison_boom",
+    "texture": "5cf0f64c-b063-4514-add7-74715722e2ae",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      526,
+      461
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      526,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

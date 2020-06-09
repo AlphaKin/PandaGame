@@ -2,6 +2,6 @@
   "appid": "wx6ac3f5090a6b99c5",
   "orientation": "portrait",
   "separate_engine": false,
-  "REMOTE_SERVER_ROOT": "",
+  "REMOTE_SERVER_ROOT": "http://47.93.97.143",
   "subContext": ""
 }

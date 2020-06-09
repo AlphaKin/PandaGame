@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sx_chin",
+    "texture": "458daf54-0d1c-471c-ade3-8125fb0a9327",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      235,
+      137
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      235,
+      137
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

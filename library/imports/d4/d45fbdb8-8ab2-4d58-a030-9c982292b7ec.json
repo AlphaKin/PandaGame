@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "block-boom",
+    "texture": "c31752b1-b353-478d-b09c-964e12b4c2b3",
+    "atlas": "",
+    "rect": [
+      11,
+      10,
+      176,
+      176
+    ],
+    "offset": [
+      3,
+      -5
+    ],
+    "originalSize": [
+      192,
+      186
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

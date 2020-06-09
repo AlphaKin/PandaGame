@@ -16,11 +16,20 @@ module.exports = {
     BLOCK_BASE_NUM: 20,
     nowLevel: 0,
     score: 100,
-    boom_range: 1,
-    
-    //fragile - base - add - decrease - boom - pass - doubleMagic
+    boom_range: 2,
+
+    block_table: [
+        "block_fragile", 
+        "block_base", 
+        "block_add", 
+        "block_decrease", 
+        "block_boom", 
+        "block_pass", 
+        "doubleMagic"],
+
+    //fragile - base - add - decrease - boom - pass - doubleMagic - 
     level_config:[
-        [ 30, 30, 10, 5, 10, 1, 1],
+        [ 30, 20, 10, 5, 20, 1, 1],
         [ 2, 2, 2, 2, 2, 1, 1],
         [ 3, 3, 3, 3, 3, 1, 1],
         [ 4, 4, 4, 4, 4, 1, 1],

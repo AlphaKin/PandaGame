@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "block-decrease",
+    "texture": "f35bc8eb-e275-4706-8804-4ecb3cf2b6ee",
+    "atlas": "",
+    "rect": [
+      21,
+      9,
+      223,
+      234
+    ],
+    "offset": [
+      8.5,
+      -2
+    ],
+    "originalSize": [
+      248,
+      248
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

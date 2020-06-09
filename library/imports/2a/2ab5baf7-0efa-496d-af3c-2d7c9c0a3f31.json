@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pass_light",
+    "texture": "31f9ce56-ee8a-414a-a110-12c9af666601",
+    "atlas": "",
+    "rect": [
+      8,
+      17,
+      289,
+      372
+    ],
+    "offset": [
+      4,
+      0.5
+    ],
+    "originalSize": [
+      297,
+      407
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

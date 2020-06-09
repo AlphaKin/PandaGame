@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_chest",
+    "texture": "fd9e3263-235d-48a6-8feb-e3114ddc724d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      135
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      135
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -14,6 +14,7 @@ cc.Class({
 
     properties: {
         parts: cc.Prefab,
+        audio: cc.AudioClip,
         isBoom: false,
         _isContacted: true
         // foo: {
@@ -43,19 +44,29 @@ cc.Class({
         }
     },
     boom(){
+        cc.audioEngine.play(this.audio, false, 1);
+        let bp = this.node.getComponent("position");
+        com.MAP_OBJ[bp.x][bp.y] = null;
         let part = cc.instantiate(this.parts);
         cc.find("Canvas/blocks").addChild(part);
         part.setPosition(this.node.getPosition());
-        let bp = this.node.getComponent("position");
-        console.log(bp.x + " " + bp.y);
+        com.score = com.score - 5;
         const dir = [[-1,0],[1,0],[0,-1],[0,1],[-1,-1],[1,1],[-1,1],[1,-1]];
-        dir.forEach((item,index,array)=>{
+        dir.forEach((item,index,array) => {
             let xx = bp.x + item[0];
             let yy = bp.y + item[1];
             if(xx < com.MAP_WIDTH && xx >= 0 && yy < com.MAP_HEIGHT && yy >= 0){
                 let block = com.MAP_OBJ[xx][yy];
                 if(block != null){
-                    block.getComponent("position").boom();
+                    let sptName = block.getComponent("position").spt_name;
+                    if(sptName != null){
+                        if(sptName == "block_pass"){
+                            alert("game over");
+                        }else{
+                            console.log(sptName + "(" + xx +"," + yy + ") will boom")
+                            block.getComponent(sptName).boom();
+                        }
+                    }
                 }
             }
         });

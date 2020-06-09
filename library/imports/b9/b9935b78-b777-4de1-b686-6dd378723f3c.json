@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_foot_left",
+    "texture": "fb2b0310-9f92-4272-98f5-50b9e73b5b52",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      86
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      86
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "暂停png",
+    "texture": "a59b7563-1f3c-435a-b37d-72e4647b815c",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      139,
+      135
+    ],
+    "offset": [
+      -6,
+      -5
+    ],
+    "originalSize": [
+      151,
+      145
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

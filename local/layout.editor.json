@@ -1,0 +1,121 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 728,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 313,
+                "type": "panel",
+                "width": 273
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 295,
+                "type": "panel",
+                "width": 273
+              }
+            ],
+            "height": 611,
+            "type": "dock-v",
+            "width": 273
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 342,
+                "type": "panel",
+                "width": 629
+              },
+              {
+                "active": 0,
+                "children": [
+                  "timeline"
+                ],
+                "height": 266,
+                "type": "panel",
+                "width": 629
+              }
+            ],
+            "height": 611,
+            "type": "dock-v",
+            "width": 629
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ],
+            "height": 611,
+            "type": "panel",
+            "width": 442
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "scene",
+        "timeline",
+        "inspector",
+        "cocos-services"
+      ]
+    }
+  },
+  "panels": {
+    "timeline": {
+      "x": 413,
+      "y": 182,
+      "width": 695,
+      "height": 458
+    },
+    "console": {
+      "x": 219,
+      "y": 270,
+      "width": 841,
+      "height": 347
+    },
+    "project-settings": {
+      "x": 381,
+      "y": 76,
+      "width": 600,
+      "height": 564
+    },
+    "builder": {
+      "x": 340,
+      "y": 0,
+      "width": 670,
+      "height": 728
+    }
+  },
+  "panelLabelWidth": {
+    "inspector": null,
+    "project-settings": null,
+    "builder": null
+  },
+  "panelLabelWidth.inspector": null,
+  "panelLabelWidth.project-settings": null,
+  "panelLabelWidth.builder": null
+}

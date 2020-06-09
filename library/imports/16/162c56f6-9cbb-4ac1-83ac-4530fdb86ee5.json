@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "broken_stone",
+    "texture": "e348c753-eb30-4c44-a301-c459a17df128",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      263,
+      271
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      263,
+      271
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

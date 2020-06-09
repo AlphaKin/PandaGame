@@ -8,6 +8,7 @@
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
+var com = require('common');
 cc.Class({
     extends: cc.Component,
 
@@ -34,13 +35,17 @@ cc.Class({
     // onLoad () {},
     onBeginContact(contact, self, other){
         if(other.node.group == "ball"){
-            console.log("double");
             let ball = cc.find("Canvas/Ball");
             cc.find("Canvas").addChild(cc.instantiate(ball));
-            this.node.destroy();
+            this.boom();
         }
     },
-
+    boom(){
+        let x =  this.node.getComponent("position").x;
+        let y =  this.node.getComponent("position").y;
+        com.MAP_OBJ[x][y] = null;
+        this.node.destroy();
+    },
     start () {
         
     },

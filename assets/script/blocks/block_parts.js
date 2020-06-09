@@ -42,7 +42,6 @@ cc.Class({
         this._rigidbody = this.node.getComponent(cc.RigidBody);
     },
     boom(offest, grav, opacityVic){
-        console.log("boom");
         this._grav = grav;
         this._opacityVic = opacityVic;
         this._rigidbody.linearVelocity = cc.v2(offest, grav);

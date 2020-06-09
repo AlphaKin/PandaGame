@@ -42,9 +42,7 @@ cc.Class({
     },
 
     update (dt) {
-        console.log();
         if(this.node.opacity == 0){
-            console.log("boom_destroy");
             // let part = cc.instantiate(this.node);
             // cc.find("Canvas/blocks").addChild(part);
             // part.setPosition(this.node.getPosition().x + 20, this.node.getPosition().y + 20 );

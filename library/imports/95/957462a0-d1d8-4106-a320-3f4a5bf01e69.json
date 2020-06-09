@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "分",
+    "texture": "81f4b1d6-535e-4e9a-8925-7d32f0db6a00",
+    "atlas": "",
+    "rect": [
+      15,
+      20,
+      160,
+      156
+    ],
+    "offset": [
+      -0.5,
+      -2.5
+    ],
+    "originalSize": [
+      191,
+      191
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,706 @@
+2020-06-04T16:18:09.697Z - normal: Load ~/.CocosCreator/settings.json
+2020-06-04T16:18:09.835Z - normal: Initializing Asset Database
+2020-06-04T16:18:09.861Z - normal: checking language setting...
+2020-06-04T16:18:09.861Z - normal: Language: zh
+2020-06-04T16:18:12.679Z - success: preview server running at http://localhost:7456
+2020-06-04T16:18:12.684Z - success: protocol editor-framework registered
+2020-06-04T16:18:12.684Z - success: protocol app registered
+2020-06-04T16:18:12.684Z - success: protocol theme registered
+2020-06-04T16:18:12.685Z - success: protocol packages registered
+2020-06-04T16:18:12.685Z - success: protocol uuid registerred
+2020-06-04T16:18:12.685Z - success: protocol db registerred
+2020-06-04T16:18:12.685Z - success: protocol thumbnail registerred
+2020-06-04T16:18:12.685Z - success: protocol unpack registerred
+2020-06-04T16:18:12.685Z - success: protocol disable-commonjs registerred
+2020-06-04T16:18:15.185Z - normal: connected!
+2020-06-04T16:18:15.188Z - normal: Check project C:\Users\ALPHAKIN\Desktop\PandaGame-master
+2020-06-04T16:18:15.194Z - normal: Initializing project C:\Users\ALPHAKIN\Desktop\PandaGame-master
+2020-06-04T16:18:15.670Z - success: adapters loaded
+2020-06-04T16:18:15.704Z - success: asset-db-debugger loaded
+2020-06-04T16:18:16.026Z - success: fb-audience-network loaded
+2020-06-04T16:18:16.113Z - success: fb-live-stream loaded
+2020-06-04T16:18:16.139Z - success: google-play-instant loaded
+2020-06-04T16:18:16.169Z - success: huawei-runtime loaded
+2020-06-04T16:18:16.170Z - success: jkw-adapter loaded
+2020-06-04T16:18:16.171Z - success: jsb-adapter loaded
+2020-06-04T16:18:16.198Z - success: oppo-runtime loaded
+2020-06-04T16:18:16.230Z - success: package-manager loaded
+2020-06-04T16:18:16.231Z - success: qtt-adapter loaded
+2020-06-04T16:18:16.260Z - success: runtime-dev-tools loaded
+2020-06-04T16:18:16.300Z - success: sdkbox loaded
+2020-06-04T16:18:16.324Z - success: ui-kit-preview-extra loaded
+2020-06-04T16:18:16.331Z - success: ui-kit-preview loaded
+2020-06-04T16:18:16.371Z - success: vivo-runtime loaded
+2020-06-04T16:18:16.375Z - success: alipay-minigame loaded
+2020-06-04T16:18:16.436Z - success: assets loaded
+2020-06-04T16:18:16.443Z - success: baidugame-opendata loaded
+2020-06-04T16:18:16.447Z - success: baidugame loaded
+2020-06-04T16:18:16.466Z - success: builder loaded
+2020-06-04T16:18:17.687Z - success: cocos-services loaded
+2020-06-04T16:18:17.697Z - success: console loaded
+2020-06-04T16:18:17.718Z - success: fb-instant-games loaded
+2020-06-04T16:18:17.722Z - success: game-window loaded
+2020-06-04T16:18:17.724Z - success: google-instant-games loaded
+2020-06-04T16:18:17.750Z - success: hierarchy loaded
+2020-06-04T16:18:17.754Z - success: inspector loaded
+2020-06-04T16:18:19.682Z - success: cpk-publish loaded
+2020-06-04T16:18:19.696Z - success: keystore loaded
+2020-06-04T16:18:19.720Z - success: node-library loaded
+2020-06-04T16:18:19.721Z - success: open-recent-items loaded
+2020-06-04T16:18:19.723Z - success: package-asset loaded
+2020-06-04T16:18:19.724Z - success: preferences loaded
+2020-06-04T16:18:19.726Z - success: project-exporter loaded
+2020-06-04T16:18:19.727Z - success: project-importer loaded
+2020-06-04T16:18:19.729Z - success: project-settings loaded
+2020-06-04T16:18:19.748Z - success: qtt-runtime loaded
+2020-06-04T16:18:19.753Z - success: scene loaded
+2020-06-04T16:18:19.754Z - success: simulator-debugger loaded
+2020-06-04T16:18:19.755Z - success: sprite-editor loaded
+2020-06-04T16:18:19.758Z - success: store loaded
+2020-06-04T16:18:19.762Z - success: timeline loaded
+2020-06-04T16:18:19.766Z - success: wechatgame-opendata loaded
+2020-06-04T16:18:19.777Z - success: wechatgame loaded
+2020-06-04T16:18:19.783Z - success: xiaomi-runtime loaded
+2020-06-04T16:18:21.126Z - normal: Initializing Cocos2d
+2020-06-04T16:18:23.580Z - normal: Initializing engine extends
+2020-06-04T16:18:29.191Z - normal: Loading packages
+2020-06-04T16:18:29.199Z - normal: Watching packages
+2020-06-04T16:18:30.677Z - normal: Run Application
+2020-06-04T16:18:31.977Z - info: Cocos Service load base data!
+2020-06-04T16:18:40.417Z - warn: Please change the definition of property 'audio' in class 'block_add'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:18:40.418Z - warn: Please change the definition of property 'audio' in class 'block_base'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:18:40.420Z - warn: Please change the definition of property 'audio' in class 'block_boom'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:18:40.423Z - warn: Please change the definition of property 'audio' in class 'block_decrease'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:18:40.424Z - warn: Please change the definition of property 'audio' in class 'block_fragile'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:42:08.764Z - warn: Please change the definition of property 'audio' in class 'block_add'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:42:08.764Z - warn: Please change the definition of property 'audio' in class 'block_base'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:42:08.765Z - warn: Please change the definition of property 'audio' in class 'block_boom'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:42:08.765Z - warn: Please change the definition of property 'audio' in class 'block_decrease'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:42:08.765Z - warn: Please change the definition of property 'audio' in class 'block_fragile'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:52:36.045Z - warn: Please change the definition of property 'audio' in class 'block_add'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:52:36.046Z - warn: Please change the definition of property 'audio' in class 'block_base'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:52:36.048Z - warn: Please change the definition of property 'audio' in class 'block_boom'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:52:36.050Z - warn: Please change the definition of property 'audio' in class 'block_decrease'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:52:36.053Z - warn: Please change the definition of property 'audio' in class 'block_fragile'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:55:26.122Z - info: 只有预制节点 "block_fragile" 及其子节点会被保存。
+2020-06-04T16:56:22.764Z - warn: Please change the definition of property 'audio' in class 'block_add'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:22.765Z - warn: Please change the definition of property 'audio' in class 'block_base'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:22.767Z - warn: Please change the definition of property 'audio' in class 'block_boom'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:22.771Z - warn: Please change the definition of property 'audio' in class 'block_decrease'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:22.772Z - warn: Please change the definition of property 'audio' in class 'block_fragile'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:53.164Z - warn: Please change the definition of property 'audio' in class 'block_add'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:53.166Z - warn: Please change the definition of property 'audio' in class 'block_base'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:53.167Z - warn: Please change the definition of property 'audio' in class 'block_boom'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:53.170Z - warn: Please change the definition of property 'audio' in class 'block_decrease'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:56:53.171Z - warn: Please change the definition of property 'audio' in class 'block_fragile'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:59:01.194Z - warn: Please change the definition of property 'audio' in class 'block_add'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:59:01.194Z - warn: Please change the definition of property 'audio' in class 'block_base'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:59:01.195Z - warn: Please change the definition of property 'audio' in class 'block_boom'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:59:01.195Z - warn: Please change the definition of property 'audio' in class 'block_decrease'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T16:59:01.195Z - warn: Please change the definition of property 'audio' in class 'block_fragile'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    audio: cc.Texture2D,
+If you use JS, it should be changed to:
+    audio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+If you use TS, it should be changed to:
+    %s: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+    }
+    %s: cc.Texture2D = null;
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2020-06-04T17:11:27.598Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android": {
+    "packageName": ""
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "C:\\Users\\ALPHAKIN\\Desktop\\PandaGame-master\\build",
+  "debug": false,
+  "dest": "C:\\Users\\ALPHAKIN\\Desktop\\PandaGame-master\\build\\wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": ""
+  },
+  "mac": {
+    "packageName": ""
+  },
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "",
+  "platform": "mini-game",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49",
+    "4fff8a1c-8862-4468-9218-4643bf85a60f"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "PandaGame",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "63c342e0-7a88-41",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\ALPHAKIN\\Desktop\\PandaGame-master",
+  "projectName": "PandaGame",
+  "debugBuildWorker": false
+}
+2020-06-04T17:11:27.600Z - normal: Building C:\Users\ALPHAKIN\Desktop\PandaGame-master
+2020-06-04T17:11:27.600Z - normal: Destination C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame
+2020-06-04T17:11:27.853Z - normal: Delete C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\**\*,C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\subpackages/**/*,!C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\game.json,!C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\project.config.json
+2020-06-04T17:11:32.374Z - normal: Start building assets
+2020-06-04T17:11:32.375Z - normal: Start spawn build-worker
+2020-06-04T17:11:33.366Z - normal: Finish spawn build-worker
+2020-06-04T17:11:33.366Z - normal: Start init build-worker
+2020-06-04T17:11:38.407Z - normal: Finish init build-worker
+2020-06-04T17:11:38.407Z - normal: Start build-assets in worker
+2020-06-04T17:11:42.298Z - normal: Finish build-assets in worker
+2020-06-04T17:11:42.305Z - normal: Finish building assets
+2020-06-04T17:11:42.399Z - normal: Start building plugin scripts
+2020-06-04T17:11:46.336Z - normal: Built wechatgame successfully
+2020-06-05T06:02:54.268Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android": {
+    "packageName": ""
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "C:\\Users\\ALPHAKIN\\Desktop\\PandaGame-master\\build",
+  "debug": false,
+  "dest": "C:\\Users\\ALPHAKIN\\Desktop\\PandaGame-master\\build\\wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": ""
+  },
+  "mac": {
+    "packageName": ""
+  },
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "",
+  "platform": "mini-game",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49",
+    "4fff8a1c-8862-4468-9218-4643bf85a60f"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "PandaGame",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "63c342e0-7a88-41",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\ALPHAKIN\\Desktop\\PandaGame-master",
+  "projectName": "PandaGame",
+  "debugBuildWorker": false
+}
+2020-06-05T06:02:54.268Z - normal: Building C:\Users\ALPHAKIN\Desktop\PandaGame-master
+2020-06-05T06:02:54.269Z - normal: Destination C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame
+2020-06-05T06:02:54.270Z - normal: Delete C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\**\*,C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\subpackages/**/*,!C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\game.json,!C:\Users\ALPHAKIN\Desktop\PandaGame-master\build\wechatgame\project.config.json
+2020-06-05T06:02:59.418Z - normal: Start building assets
+2020-06-05T06:02:59.418Z - normal: Start spawn build-worker
+2020-06-05T06:03:00.387Z - normal: Finish spawn build-worker
+2020-06-05T06:03:00.388Z - normal: Start init build-worker
+2020-06-05T06:03:06.857Z - normal: Finish init build-worker
+2020-06-05T06:03:06.857Z - normal: Start build-assets in worker
+2020-06-05T06:03:11.728Z - normal: Finish build-assets in worker
+2020-06-05T06:03:11.741Z - normal: Finish building assets
+2020-06-05T06:03:11.892Z - normal: Start building plugin scripts
+2020-06-05T06:03:14.992Z - normal: Built wechatgame successfully

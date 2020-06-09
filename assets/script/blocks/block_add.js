@@ -13,6 +13,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        audio: cc.AudioClip,
         _isContacted: true
         // foo: {
         //     // ATTRIBUTES:
@@ -41,10 +42,12 @@ cc.Class({
         }
     },
     boom(){
+        cc.audioEngine.play(this.audio, false, 0.5);
         this.node.getChildByName("stone_part1").getComponent("block_parts").boom(-100, 5, 15);
         this.node.getChildByName("stone_part2").getComponent("block_parts").boom(0  , -5, 15);
         this.node.getChildByName("stone_part3").getComponent("block_parts").boom(100 , 5, 15);
         this.node.removeComponent(cc.RigidBody);
+        com.score = com.score + 10;
         let x =  this.node.getComponent("position").x;
         let y =  this.node.getComponent("position").y;
         com.MAP_OBJ[x][y] = null;

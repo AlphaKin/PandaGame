@@ -1,7 +1,7 @@
 {
   "title": "PandaGame",
   "packageName": "",
-  "startScene": "4cf1a1ac-b19a-42ab-b134-a05aab86c14e",
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
   "excludeScenes": [],
   "includeSDKBox": false,
   "orientation": {
@@ -15,7 +15,7 @@
   "inlineSpriteFrames_native": true,
   "mergeStartScene": false,
   "optimizeHotUpdate": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "encryptJs": true,
   "xxteaKey": "63c342e0-7a88-41",
   "zipCompressJs": true,

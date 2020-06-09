@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_hand_left",
+    "texture": "b214ff4a-a6fd-487f-ac27-699987f21b20",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      91
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      91
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

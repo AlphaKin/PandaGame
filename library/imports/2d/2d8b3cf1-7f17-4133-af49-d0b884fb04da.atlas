@@ -1,0 +1,223 @@
+
+FX.png
+size: 981,792
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 681, 261
+  size: 174, 176
+  orig: 192, 186
+  offset: 11, 0
+  index: -1
+1
+  rotate: false
+  xy: 289, 92
+  size: 71, 62
+  orig: 192, 186
+  offset: 17, 105
+  index: -1
+2
+  rotate: false
+  xy: 874, 76
+  size: 96, 69
+  orig: 192, 186
+  offset: 69, 107
+  index: -1
+3
+  rotate: false
+  xy: 591, 124
+  size: 77, 94
+  orig: 192, 186
+  offset: 58, 51
+  index: -1
+4
+  rotate: true
+  xy: 2, 14
+  size: 75, 131
+  orig: 192, 186
+  offset: 110, 13
+  index: -1
+5
+  rotate: true
+  xy: 874, 5
+  size: 69, 92
+  orig: 192, 186
+  offset: 11, 25
+  index: -1
+6
+  rotate: false
+  xy: 135, 8
+  size: 96, 81
+  orig: 192, 186
+  offset: 40, 0
+  index: -1
+A2
+  rotate: true
+  xy: 325, 2
+  size: 88, 117
+  orig: 248, 248
+  offset: 24, 109
+  index: -1
+A3
+  rotate: true
+  xy: 649, 439
+  size: 162, 139
+  orig: 248, 248
+  offset: 67, 88
+  index: -1
+A4
+  rotate: true
+  xy: 524, 435
+  size: 127, 123
+  orig: 248, 248
+  offset: 24, 18
+  index: -1
+A5
+  rotate: false
+  xy: 362, 95
+  size: 72, 59
+  orig: 248, 248
+  offset: 157, 93
+  index: -1
+A6
+  rotate: true
+  xy: 857, 237
+  size: 112, 101
+  orig: 248, 248
+  offset: 113, 16
+  index: -1
+A7
+  rotate: false
+  xy: 478, 220
+  size: 201, 207
+  orig: 248, 248
+  offset: 29, 20
+  index: -1
+B2
+  rotate: true
+  xy: 233, 6
+  size: 83, 90
+  orig: 248, 248
+  offset: 31, 110
+  index: -1
+B3
+  rotate: false
+  xy: 282, 428
+  size: 134, 121
+  orig: 248, 248
+  offset: 87, 87
+  index: -1
+B4
+  rotate: true
+  xy: 485, 101
+  size: 117, 104
+  orig: 248, 248
+  offset: 31, 29
+  index: -1
+B5
+  rotate: false
+  xy: 436, 98
+  size: 47, 56
+  orig: 248, 248
+  offset: 176, 89
+  index: -1
+B6
+  rotate: false
+  xy: 874, 147
+  size: 105, 88
+  orig: 248, 248
+  offset: 114, 29
+  index: -1
+B7
+  rotate: false
+  xy: 784, 616
+  size: 192, 174
+  orig: 248, 248
+  offset: 31, 29
+  index: -1
+C2
+  rotate: true
+  xy: 559, 3
+  size: 96, 119
+  orig: 248, 248
+  offset: 21, 106
+  index: -1
+C3
+  rotate: false
+  xy: 790, 461
+  size: 140, 153
+  orig: 248, 248
+  offset: 72, 86
+  index: -1
+C4
+  rotate: false
+  xy: 418, 429
+  size: 104, 120
+  orig: 248, 248
+  offset: 48, 14
+  index: -1
+C5
+  rotate: true
+  xy: 512, 564
+  size: 37, 35
+  orig: 248, 248
+  offset: 174, 103
+  index: -1
+C6
+  rotate: true
+  xy: 444, 5
+  size: 91, 113
+  orig: 248, 248
+  offset: 110, 6
+  index: -1
+C7
+  rotate: false
+  xy: 680, 12
+  size: 192, 206
+  orig: 248, 248
+  offset: 31, 18
+  index: -1
+pass
+  rotate: false
+  xy: 289, 156
+  size: 187, 270
+  orig: 207, 283
+  offset: 14, 6
+  index: -1
+pass2
+  rotate: true
+  xy: 512, 603
+  size: 187, 270
+  orig: 207, 283
+  offset: 14, 6
+  index: -1
+pass_light
+  rotate: false
+  xy: 2, 428
+  size: 278, 362
+  orig: 297, 407
+  offset: 14, 23
+  index: -1
+qwe1
+  rotate: false
+  xy: 2, 91
+  size: 285, 335
+  orig: 335, 349
+  offset: 25, 7
+  index: -1
+smoke
+  rotate: true
+  xy: 282, 551
+  size: 239, 228
+  orig: 267, 254
+  offset: 14, 13
+  index: -1
+xx
+  rotate: false
+  xy: 857, 351
+  size: 108, 108
+  orig: 297, 407
+  offset: 100, 156
+  index: -1

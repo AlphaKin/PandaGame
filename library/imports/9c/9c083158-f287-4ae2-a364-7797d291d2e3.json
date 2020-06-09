@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "acoustics",
+    "texture": "42c0a696-1571-4d77-8a3c-92fb2028884d",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      573,
+      150
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      573,
+      152
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

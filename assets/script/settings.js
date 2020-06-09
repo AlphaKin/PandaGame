@@ -53,6 +53,7 @@ cc.Class({
         console.log(this.music_button)
         this.close.on(cc.Node.EventType.TOUCH_END, function (event) {
             console.log("点击了关闭");
+            cc.find("Canvas").getComponent("gameManager").gameResume();
             that.node.parent = null
         })
         this.music_button.on(cc.Node.EventType.TOUCH_END, function (event) {

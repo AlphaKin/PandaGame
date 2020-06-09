@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taiji_effect",
+    "texture": "a4b339da-4de0-4e55-a604-f6a3b65734a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      127,
+      164
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      164
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

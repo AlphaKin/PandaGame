@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "treasure_box",
+    "texture": "001dd630-0c73-4cfb-ae69-bea68457f82a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      345,
+      198
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      345,
+      198
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

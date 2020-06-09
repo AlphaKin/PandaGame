@@ -9,11 +9,15 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 var com = require('common');
+var global = require('global');
 cc.Class({
     extends: cc.Component,
     properties: {
         blocks: [cc.Prefab],
         arch: cc.Prefab,
+        btn_setting: cc.Node,
+        btn_pause: cc.Node,
+        ui_setting: cc.Prefab,
         _nowConfig: null
         // foo: {
         //     // ATTRIBUTES:
@@ -34,7 +38,15 @@ cc.Class({
 
 
     onLoad () {
-        
+        let that = this;
+        this.btn_setting.on(cc.Node.EventType.TOUCH_END, function (event) {
+            console.log("点击了设置");
+            let node = cc.instantiate(that.ui_setting);
+            cc.find("Canvas/blocks").addChild(node);
+            let size = cc.winSize;
+            node.setPosition(cc.v2(size.width/2, size.height/2));
+            that.gamePause();
+        })
     },
 
     start () {
@@ -52,9 +64,9 @@ cc.Class({
             for(let j=0; j<com.MAP_HEIGHT; ++j){
                 com.MAP[i][j] = -1;
                 com.MAP_OBJ[i][j] = null;
-                let block = cc.instantiate(this.arch);
-                root.addChild(block);
-                block.setPosition(cc.v2(i * 105 + 63, j * 105 + 70));
+                // let block = cc.instantiate(this.arch);
+                // root.addChild(block);
+                // block.setPosition(cc.v2(i * 105 + 63, j * 105 + 70));
             }
         }
         this.loadBlocks();
@@ -99,8 +111,6 @@ cc.Class({
         let blocksRoot = cc.find("Canvas/blocks");
         let level_ui = cc.find("Canvas/title/ui_level").getComponent("levelUI");
         level_ui.updateLevel();
-        // console.log("now:");
-        // console.log(this._nowConfig);
         for(let i=0; i<this._nowConfig.length; ++i){
             let cnt = 0;
             while(cnt < this._nowConfig[i]){
@@ -113,10 +123,10 @@ cc.Class({
                 com.MAP[pos[0]][pos[1]] = i;
 
                 let block = cc.instantiate(this.blocks[i]);
-                console.log(block);
+                // console.log(block);
                 let bp = block.getComponent("position");
                 bp.x = pos[0]; bp.y = pos[1];
-                bp.spt_name = ""
+                bp.spt_name = com.block_table[i];
                 com.MAP_OBJ[pos[0]][pos[1]] = block;
                 block.setPosition(cc.v2(pos[0] * 105 + 63, pos[1] * 105 + 70));
                 blocksRoot.addChild(block);

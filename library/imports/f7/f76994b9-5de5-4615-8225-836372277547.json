@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bollEffect",
+    "texture": "ae382d3d-e53c-4b0e-abd7-dde82c154236",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      376
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      100,
+      377
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_chin",
+    "texture": "22ec3c7b-41a1-49a1-8845-cce4d2fcc307",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

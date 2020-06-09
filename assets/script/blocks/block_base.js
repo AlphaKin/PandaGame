@@ -14,6 +14,7 @@ cc.Class({
 
     properties: {
         parts: cc.Prefab,
+        audio: cc.AudioClip,
         _isContacted: true
         // foo: {
         //     // ATTRIBUTES:
@@ -44,6 +45,7 @@ cc.Class({
     },
     boom(){
         let part = cc.instantiate(this.parts);
+        cc.audioEngine.play(this.audio, false, 1);
         let x = this.node.getComponent("position").x;
         let y = this.node.getComponent("position").y;
         com.MAP_OBJ[x][y] = part;
@@ -55,10 +57,8 @@ cc.Class({
         // let rigidbody = part.getComponent(cc.RigidBody);
         // rigidbody.linearVelocity = cc.v2(10, 10);
         this.node.destroy();
-        
     },
     start () {
-        console.log("blocksss");
     },
 
     // update (dt) {},

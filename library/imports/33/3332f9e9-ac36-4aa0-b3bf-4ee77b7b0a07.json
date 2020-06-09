@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sx_head",
+    "texture": "1899d9d5-c739-4110-9fb8-9624933d3c09",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      348,
+      279
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      348,
+      279
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

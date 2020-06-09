@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_shoulder_right",
+    "texture": "585f4c89-63fa-40b1-8ff3-9876a214a1b3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

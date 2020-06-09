@@ -34,8 +34,13 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
     onBeginContact(contact, self, other){
         if(other.node.group == "ball"){
-            console.log("pass");
-            let pass = cc.instantiate(this.pass);
+            this.boom();
+        }
+    },
+    // onLoad () {},
+
+    boom(){
+        let pass = cc.instantiate(this.pass);
             cc.find("Canvas/blocks").addChild(pass)
             pass.setPosition(this.node.getPosition());
 
@@ -46,9 +51,7 @@ cc.Class({
             let y = this.node.getComponent("position").y;
             com.MAP_OBJ[x][y] = null;
             this.node.destroy();
-        }
     },
-    // onLoad () {},
 
     start () {
 

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "poison_attack_effect",
+    "texture": "f511912b-cfc4-448c-854f-4c53f40dc3b0",
+    "atlas": "",
+    "rect": [
+      2,
+      8,
+      47,
+      135
+    ],
+    "offset": [
+      0.5,
+      -1.5
+    ],
+    "originalSize": [
+      50,
+      148
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

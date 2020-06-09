@@ -13,6 +13,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        audio: cc.AudioClip,
         _isContacted: true
         // foo: {
         //     // ATTRIBUTES:
@@ -40,6 +41,7 @@ cc.Class({
         }
     },
     boom(){
+        cc.audioEngine.play(this.audio, false, 1);
         this.node.getChildByName("stone_part1").getComponent("block_parts").boom(-50, 20, 3);
         this.node.getChildByName("stone_part2").getComponent("block_parts").boom(0  , 20, 3);
         this.node.getChildByName("stone_part3").getComponent("block_parts").boom(50 , 20, 3);

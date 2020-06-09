@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_body",
+    "texture": "0c4bcfd3-0a8c-46fb-a931-30a81f95c004",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      63
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

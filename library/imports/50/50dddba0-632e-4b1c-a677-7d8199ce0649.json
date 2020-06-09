@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stone_part3",
+    "texture": "eaac3ce4-2b0c-4e6d-8a75-25a8bb9b1a2e",
+    "atlas": "",
+    "rect": [
+      4,
+      168,
+      324,
+      181
+    ],
+    "offset": [
+      -8.5,
+      -84
+    ],
+    "originalSize": [
+      349,
+      349
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

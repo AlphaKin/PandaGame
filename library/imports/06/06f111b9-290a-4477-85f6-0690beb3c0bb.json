@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_hip",
+    "texture": "44ffdfc0-09cf-4521-bdbe-786df8c227d2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      88
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      88
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

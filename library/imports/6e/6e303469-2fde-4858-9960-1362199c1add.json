@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "宝物获取框",
+    "texture": "bc83ea97-ecd8-4dd8-a85e-ffa5528b8bd4",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      1080,
+      133
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1080,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

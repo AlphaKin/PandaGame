@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giant_arm",
+    "texture": "d50e5b10-3e88-4ee6-9510-c4d84e42bd28",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      84
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
